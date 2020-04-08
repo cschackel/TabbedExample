@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="TabbedPageWithNavigationPage.SchedulePage"
+			 Title="This Week">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="How old are you?" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Entry x:Name="ageEntry"></Entry>
+            
+			<Button Text="Submit" Clicked="Button_Clicked" VerticalOptions="CenterAndExpand" />
+
+            <Label x:Name="outputLabel"></Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
