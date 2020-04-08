@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 x:Class="TabbedPageWithNavigationPage.TodayPage"
-			 IconImageSource="settings.png"
+			 IconImageSource="orcasmall.png"
 			 Title="About Me">
 	<ContentPage.Content>
 		<StackLayout>
-			<Label Text="My name is Cyrus Schackel. I made this (Kind of)." HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Label Text="My name is Cyrus Schackel. I made this (Kind of). I would rather not talk about it. Included is my cat, Orca." HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             <Image Source="orcasmall.png" Aspect="AspectFit" WidthRequest="200">
                 </Image>
         </StackLayout>

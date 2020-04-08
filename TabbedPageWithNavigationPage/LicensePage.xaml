@@ -8,9 +8,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="This is the license page. Use this app however you want. I don't care. Just don't implicate me, okay?"
-                VerticalOptions="CenterAndExpand" 
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Clicked="Button_Clicked" Text="Go Back"/>
+            <Button Clicked="Button_Clicked" Text="Go Back" VerticalOptions="End"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
